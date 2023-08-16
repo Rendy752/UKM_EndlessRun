@@ -359,6 +359,7 @@
 "Assets/Scripts/Env/GroundSpawner.cs"
 "Assets/Scripts/Env/GroundTile.cs"
 "Assets/Scripts/Env/LevelBoundary.cs"
+"Assets/Scripts/Env/LevelStarter.cs"
 "Assets/Scripts/Player/PlayerMove.cs"
 "Assets/Scripts/Sound.cs"
 -langversion:9.0
