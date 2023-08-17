@@ -2042,6 +2042,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 7
   leftRightSpeed: 4
+  jump: {x: 0, y: 2, z: 0}
+  jumpForce: 0.7
+  character: {fileID: 2069411617}
+  time: 0
 --- !u!54 &462155028
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3702,6 +3706,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4758116298531618981, guid: d0a8761ba88647143a01ab0b047ebd84, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0a8761ba88647143a01ab0b047ebd84, type: 3}
 --- !u!4 &960124784 stripped
@@ -4627,6 +4635,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3825537292387260637, guid: d0a8761ba88647143a01ab0b047ebd84, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4758116298531618981, guid: d0a8761ba88647143a01ab0b047ebd84, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
